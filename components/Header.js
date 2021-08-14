@@ -76,6 +76,7 @@ function Header({ placeholder }) {
             placeholder={placeholder || "Start your search"}
             value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
+            required
           />
           <SearchIcon className="hidden md:inline-flex h-8 bg-[#FD5B61] hover:bg-red-500 rounded-full text-white p-2 cursor-pointer md:mx-2" />
         </div>
